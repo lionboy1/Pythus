@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+%matplotlib inline
 
 
 daily_gas = [15,13,13.5,14.7,11.4]
