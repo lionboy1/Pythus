@@ -1,0 +1,17 @@
+#Very very simple recommendation system
+
+import time
+
+meal = input("Welcome to the paradise resort.  For your free meal, would you like salad, bread, soup, wagyu steak, chips, or starch?")
+
+if meal == 'salad':
+    print("You will also need some sparkling water with that")
+elif meal == 'bread':
+    print("you should get some juice")
+elif meal == 'soup':
+    print("You may not need a drink, but tap water isn't bad if you have the perspective")
+elif meal == 'wagyu steak':
+    print("That may be expensive friend, let's keep things simple huh?")
+time.sleep(2)
+
+print("Enjoy your stay with us")
