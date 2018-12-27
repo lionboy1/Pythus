@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+heart_monitor = [55,70, 85, 100]
+activity = ['sitting', 'walking', 'jogging', 'running_fast']
+
+x= np.array(heart_monitor)
+y= np.array(activity)
+
+plt.xlabel('Activity')
+plt.ylabel('Heart Rate')
+plt.bar(y,x)
+plt.show()
