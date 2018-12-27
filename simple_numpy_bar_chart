@@ -9,6 +9,6 @@ x= np.array(heart_monitor)
 y= np.array(activity)
 
 plt.xlabel('Activity')
-plt.ylabel('Heart Rate')
+plt.ylabel('Heart Rate (Beats Per Minute)')
 plt.bar(y,x)
 plt.show()
