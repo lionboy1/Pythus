@@ -1,0 +1,17 @@
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# 100 People Gym Survey.
+
+exercise = ['push_ups', 'sit_ups', 'squats', 'bench_press', 'bicep_curls', 'pull_ups', 'lunges', 'burpees', 'pull_downs', 'pec_flys']
+preference = [70, 10, 40, 99, 99, 20, 50, 2, 100, 90]
+
+a = np.array(exercise)
+b = np.array(preference)
+
+fig = plt.figure()
+axes = fig.add_axes([1,1,2,1])
+axes.set_xlabel('Exercises')
+axes.set_ylabel('Preferences')
+axes.plot(a,b, 'r')
