@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-# 100 People Gym Survey.
+# 100 People Gym Survey and eating habits.
 
 exercise = ['push_ups', 'sit_ups', 'squats', 'bench_press', 'bicep_curls', 'pull_ups', 'lunges', 'burpees', 'pull_downs', 'pec_flys']
 preference = [70, 10, 40, 99, 99, 20, 50, 2, 100, 90]
@@ -11,7 +11,19 @@ a = np.array(exercise)
 b = np.array(preference)
 
 fig = plt.figure()
-axes = fig.add_axes([1,1,2,1])
+axes = fig.add_axes([0.5,0.5,1.5,0.7])
+axes2 = fig.add_axes([0.1,0.1,0.8,0.3])
 axes.set_xlabel('Exercises')
 axes.set_ylabel('Preferences')
 axes.plot(a,b, 'r')
+
+food_interest = [100,50, 20, 80,10]
+food_type =['Burgers', 'Salad', 'Vegetables', 'Pizza', 'Whole Wheat Bread']
+
+c = np.array(food_interest)
+d = np.array(food_type)
+
+
+axes2.set_xlabel('Food Type')
+axes2.set_ylabel('Habitual consumption')
+axes2.plot(d,c, 'b')
