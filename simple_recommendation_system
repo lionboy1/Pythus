@@ -9,7 +9,7 @@ if meal == 'salad':
 elif meal == 'bread':
     print("you should get some juice")
 elif meal == 'soup':
-    print("You may not need a drink, but tap water isn't bad if you have the perspective")
+    print("You may not need a drink, but tap water isn't bad if you have the right perspective")
 elif meal == 'wagyu steak':
     print("That may be expensive friend, let's keep things simple huh?")
 time.sleep(2)
