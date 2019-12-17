@@ -12,5 +12,5 @@ percentile = np.percentile(daily_gas, 80)
 x = mt.ceil(percentile)
 print(x)
 
-#The printed result means that 80% of the gas bills cost less than $28.
+#The printed result means that 80% of the gas bills cost $28 or less.
 #This is starting to reveal some good insight on our gas expense right?
