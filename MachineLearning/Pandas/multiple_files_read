@@ -1,0 +1,26 @@
+#I wanted to combine my payment made into one table (dataframe)
+#Instead of reading them in manually one at a time..
+#...I downloaded the files from my accoutn in the .csv format.
+#Using Jupyter notebooks, I needed to place the files in the current working directory so Python can fine them.
+
+#First, in the console line type the following:
+
+pwd
+
+#..then press the 'Shift'  and 'Enter' buttons
+#The directory path will return the root (working) directory of Python.
+#Mine looked like this..  C:\\Users\\my_user_name'
+
+#This is how I knew where to save my .csv files 
+
+# Next, I typed the following code below:
+
+
+import pandas as pd
+df = pd.concat(map(pd.read_csv, ['january.csv', 'february.csv']))
+df
+
+#Press the 'Run' button on the notebook menu and you will see a nice combined table of your files.
+#Note, both files need to have the same structure. i.e same column names.
+#Since I downloaded both files from the same account, I didn't have to worry about further manipulation.
+
