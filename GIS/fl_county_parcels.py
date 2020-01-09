@@ -1,3 +1,5 @@
+# refer to https://github.com/plotly/plotly.py/issues/1660 to fix plotly install errors
+
 import pandas as pd
 import plotly.figure_factory as ff
 
@@ -26,3 +28,4 @@ figure = ff.create_choropleth(
     legend_title='Land Parcels by County', title='Florida Counties')
 fig.layout.template = None
 fig.show()
+
