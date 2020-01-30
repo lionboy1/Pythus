@@ -1,3 +1,4 @@
+#Borrowed some ideas from https://www.kaggle.com/daveianhickey/how-to-folium-for-maps-heatmaps-time-analysis
 import folium
 import pandas as pd
 
