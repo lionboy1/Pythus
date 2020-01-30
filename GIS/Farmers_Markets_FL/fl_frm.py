@@ -23,7 +23,7 @@ print(long.iloc[0:])
 for index, (value1, value2, value3) in enumerate(zip(lat, long, name)):    
     folium.Marker([value1, value2],
                   popup=value3,
-                  icon=folium.Icon(color='green')
+                  icon=folium.Icon(color='green',icon='fa-leaf', prefix='fa') #use any font awesome icon
                  ).add_to(my_florida)
                  
 #Now load the map
