@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3c48243a7c644ff87ade87183986267 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c3c48243a7c644ff87ade87183986267" ></div>
+        
+</body>
+<script>    
+    
+            var map_c3c48243a7c644ff87ade87183986267 = L.map(
+                "map_c3c48243a7c644ff87ade87183986267",
+                {
+                    center: [28.207003, -81.715364],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77066b5fa5114c9f8b6be9308d0e50be = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var marker_499b67598ddc416bb3793a435df4c7fd = L.marker(
+                [29.726652, -84.983485],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_fee4a44b2e0f44acb1f92f75bd5a9088 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_499b67598ddc416bb3793a435df4c7fd.setIcon(icon_fee4a44b2e0f44acb1f92f75bd5a9088);
+        
+    
+        var popup_b11dba861ad6448abc419ea6b5289154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76c64d69a1ae426684f9068c66e1023a = $(`<div id="html_76c64d69a1ae426684f9068c66e1023a" style="width: 100.0%; height: 100.0%;">Apalachicola Farmers Market Apalachicola, FL 32320</div>`)[0];
+            popup_b11dba861ad6448abc419ea6b5289154.setContent(html_76c64d69a1ae426684f9068c66e1023a);
+        
+
+        marker_499b67598ddc416bb3793a435df4c7fd.bindPopup(popup_b11dba861ad6448abc419ea6b5289154)
+        ;
+
+        
+    
+    
+            var marker_06532325d20c4e9cb59daf8a76140e75 = L.marker(
+                [26.231959000000003, -80.140376],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_c1da8b353ea249d1b6dd2f17f75a27d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_06532325d20c4e9cb59daf8a76140e75.setIcon(icon_c1da8b353ea249d1b6dd2f17f75a27d7);
+        
+    
+        var popup_f943ad0a1cd04a64ab7f9a306fbebc41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e9b2436afad498e950aeb4aeeb45ad1 = $(`<div id="html_6e9b2436afad498e950aeb4aeeb45ad1" style="width: 100.0%; height: 100.0%;">Edward L. Myrick State Farmers Market Pompano Beach, FL 33069</div>`)[0];
+            popup_f943ad0a1cd04a64ab7f9a306fbebc41.setContent(html_6e9b2436afad498e950aeb4aeeb45ad1);
+        
+
+        marker_06532325d20c4e9cb59daf8a76140e75.bindPopup(popup_f943ad0a1cd04a64ab7f9a306fbebc41)
+        ;
+
+        
+    
+    
+            var marker_351863ad386346c7b063e115b11cd0ac = L.marker(
+                [25.451926999999998, -80.478585],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_d0b9dd3b50f84083abbec80772e8a081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_351863ad386346c7b063e115b11cd0ac.setIcon(icon_d0b9dd3b50f84083abbec80772e8a081);
+        
+    
+        var popup_f68a5606bbcf4e26942d963dbe338d1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_629bd986f8ad42ffac7027af29d33ca5 = $(`<div id="html_629bd986f8ad42ffac7027af29d33ca5" style="width: 100.0%; height: 100.0%;">Florida City State Farmers Market Florida City, FL 33034</div>`)[0];
+            popup_f68a5606bbcf4e26942d963dbe338d1f.setContent(html_629bd986f8ad42ffac7027af29d33ca5);
+        
+
+        marker_351863ad386346c7b063e115b11cd0ac.bindPopup(popup_f68a5606bbcf4e26942d963dbe338d1f)
+        ;
+
+        
+    
+    
+            var marker_db92b672cd3e43a59cdd8831ff3b46e7 = L.marker(
+                [26.633203, -81.857407],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_f8539e0444b64794adf759d9730e7e57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_db92b672cd3e43a59cdd8831ff3b46e7.setIcon(icon_f8539e0444b64794adf759d9730e7e57);
+        
+    
+        var popup_08f58b918239499ca545d6db01e55360 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3701052ce5f430c8f9dca7fc144508b = $(`<div id="html_e3701052ce5f430c8f9dca7fc144508b" style="width: 100.0%; height: 100.0%;">Fort Myers State Farmers Market Fort Myers, FL 33916</div>`)[0];
+            popup_08f58b918239499ca545d6db01e55360.setContent(html_e3701052ce5f430c8f9dca7fc144508b);
+        
+
+        marker_db92b672cd3e43a59cdd8831ff3b46e7.bindPopup(popup_08f58b918239499ca545d6db01e55360)
+        ;
+
+        
+    
+    
+            var marker_74f37e5905fe45d4a77005b773c079ee = L.marker(
+                [27.396427000000003, -80.325986],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_57db9100a15e47638cae626afe032a57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_74f37e5905fe45d4a77005b773c079ee.setIcon(icon_57db9100a15e47638cae626afe032a57);
+        
+    
+        var popup_8420a51163e44c15bb5d950415f888ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbd26e46533419b9590fbfef9db17e9 = $(`<div id="html_ffbd26e46533419b9590fbfef9db17e9" style="width: 100.0%; height: 100.0%;">Fort Pierce State Farmers Market Fort Pierce, FL 34982</div>`)[0];
+            popup_8420a51163e44c15bb5d950415f888ae.setContent(html_ffbd26e46533419b9590fbfef9db17e9);
+        
+
+        marker_74f37e5905fe45d4a77005b773c079ee.bindPopup(popup_8420a51163e44c15bb5d950415f888ae)
+        ;
+
+        
+    
+    
+            var marker_ef60c009a69246fbb5ac644bfeba9cac = L.marker(
+                [30.585808, -84.62210999999999],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_7d1f01783c24427caac8eb2511fdbe86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ef60c009a69246fbb5ac644bfeba9cac.setIcon(icon_7d1f01783c24427caac8eb2511fdbe86);
+        
+    
+        var popup_05b700cc4e084e62a8bdffe2684ee804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b07782e3ac54ed5bd087d0171c21a30 = $(`<div id="html_9b07782e3ac54ed5bd087d0171c21a30" style="width: 100.0%; height: 100.0%;">Gadsden State Farmers Market Quincy, FL 32351</div>`)[0];
+            popup_05b700cc4e084e62a8bdffe2684ee804.setContent(html_9b07782e3ac54ed5bd087d0171c21a30);
+        
+
+        marker_ef60c009a69246fbb5ac644bfeba9cac.bindPopup(popup_05b700cc4e084e62a8bdffe2684ee804)
+        ;
+
+        
+    
+    
+            var marker_3527657f2684481eb8d25222c97370e8 = L.marker(
+                [26.424278, -81.411546],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_f326868a71d24f9ab2dce1335a8c4695 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3527657f2684481eb8d25222c97370e8.setIcon(icon_f326868a71d24f9ab2dce1335a8c4695);
+        
+    
+        var popup_46b85a3feb7b423c8a3245915db3bd93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4398cb673a0484a9dcb2c9d0dfdd24f = $(`<div id="html_d4398cb673a0484a9dcb2c9d0dfdd24f" style="width: 100.0%; height: 100.0%;">Immokalee State Farmers Market Immokalee, FL 34142</div>`)[0];
+            popup_46b85a3feb7b423c8a3245915db3bd93.setContent(html_d4398cb673a0484a9dcb2c9d0dfdd24f);
+        
+
+        marker_3527657f2684481eb8d25222c97370e8.bindPopup(popup_46b85a3feb7b423c8a3245915db3bd93)
+        ;
+
+        
+    
+    
+            var marker_e49d628b3ddd4606ad62911a0bbf4d2d = L.marker(
+                [29.659659, -81.656194],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_b758b8edf0cf4ab88a58fec0c3db185a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e49d628b3ddd4606ad62911a0bbf4d2d.setIcon(icon_b758b8edf0cf4ab88a58fec0c3db185a);
+        
+    
+        var popup_c69b01861d84462b88897991654e0d88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeb5a881d3334c0aa3a73a3e0ed770bc = $(`<div id="html_aeb5a881d3334c0aa3a73a3e0ed770bc" style="width: 100.0%; height: 100.0%;">Palatka State Farmers Market Palatka, FL 32131</div>`)[0];
+            popup_c69b01861d84462b88897991654e0d88.setContent(html_aeb5a881d3334c0aa3a73a3e0ed770bc);
+        
+
+        marker_e49d628b3ddd4606ad62911a0bbf4d2d.bindPopup(popup_c69b01861d84462b88897991654e0d88)
+        ;
+
+        
+    
+    
+            var marker_b98c496b9f2d45eba1b77c090e82d5b3 = L.marker(
+                [27.999669, -82.13739100000001],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_8600202fa0dc44dc9a55b394b38442d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b98c496b9f2d45eba1b77c090e82d5b3.setIcon(icon_8600202fa0dc44dc9a55b394b38442d0);
+        
+    
+        var popup_9dab381c88a344b49a9e8c6a4aad5583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7083ab7693044d4285294d0fa4aa4eb1 = $(`<div id="html_7083ab7693044d4285294d0fa4aa4eb1" style="width: 100.0%; height: 100.0%;">Plant City State Farmers Market Plant City, FL 33563</div>`)[0];
+            popup_9dab381c88a344b49a9e8c6a4aad5583.setContent(html_7083ab7693044d4285294d0fa4aa4eb1);
+        
+
+        marker_b98c496b9f2d45eba1b77c090e82d5b3.bindPopup(popup_9dab381c88a344b49a9e8c6a4aad5583)
+        ;
+
+        
+    
+    
+            var marker_e43d901210a44325bf1e9e9905bde6ef = L.marker(
+                [29.966853999999998, -82.10260600000001],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_b8b3bc3eb9d14f41a81a166ce13edecb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e43d901210a44325bf1e9e9905bde6ef.setIcon(icon_b8b3bc3eb9d14f41a81a166ce13edecb);
+        
+    
+        var popup_0437bb4b69ca48f1ac13b4ae259c719b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3bcdb652dd44ae6994cd4596ddc7207 = $(`<div id="html_b3bcdb652dd44ae6994cd4596ddc7207" style="width: 100.0%; height: 100.0%;">Starke State Farmers Market Starke, FL 32091</div>`)[0];
+            popup_0437bb4b69ca48f1ac13b4ae259c719b.setContent(html_b3bcdb652dd44ae6994cd4596ddc7207);
+        
+
+        marker_e43d901210a44325bf1e9e9905bde6ef.bindPopup(popup_0437bb4b69ca48f1ac13b4ae259c719b)
+        ;
+
+        
+    
+    
+            var marker_ea12947147e44213a3cb90e3bb2654d0 = L.marker(
+                [30.319053999999998, -82.804541],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_9dca4d8ed0e94c5bba850bd04f06f55d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ea12947147e44213a3cb90e3bb2654d0.setIcon(icon_9dca4d8ed0e94c5bba850bd04f06f55d);
+        
+    
+        var popup_3e0426555d4e4bf6a8a246f0eafb27f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ee221e0b7ef4d07829f3befc3533f1d = $(`<div id="html_3ee221e0b7ef4d07829f3befc3533f1d" style="width: 100.0%; height: 100.0%;">Suwannee Valley State Farmers Market White Springs, FL 32096</div>`)[0];
+            popup_3e0426555d4e4bf6a8a246f0eafb27f3.setContent(html_3ee221e0b7ef4d07829f3befc3533f1d);
+        
+
+        marker_ea12947147e44213a3cb90e3bb2654d0.bindPopup(popup_3e0426555d4e4bf6a8a246f0eafb27f3)
+        ;
+
+        
+    
+    
+            var marker_b57f38dd0d4e4d0a9b25490bb344500a = L.marker(
+                [29.626666999999998, -82.807585],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_ac011451717f46fd8fa7f1eacfd00f70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b57f38dd0d4e4d0a9b25490bb344500a.setIcon(icon_ac011451717f46fd8fa7f1eacfd00f70);
+        
+    
+        var popup_7fa4cbb9c784488fbc57888f314a67d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20df2672b90b45d29eb394ff6e9974f5 = $(`<div id="html_20df2672b90b45d29eb394ff6e9974f5" style="width: 100.0%; height: 100.0%;">Trenton State Farmers Market Trenton, FL 32693</div>`)[0];
+            popup_7fa4cbb9c784488fbc57888f314a67d1.setContent(html_20df2672b90b45d29eb394ff6e9974f5);
+        
+
+        marker_b57f38dd0d4e4d0a9b25490bb344500a.bindPopup(popup_7fa4cbb9c784488fbc57888f314a67d1)
+        ;
+
+        
+    
+    
+            var marker_2c91ff3dccbe41afbe41f7eeaf17815f = L.marker(
+                [27.541563, -81.81003100000001],
+                {}
+            ).addTo(map_c3c48243a7c644ff87ade87183986267);
+        
+    
+            var icon_7650325deecb4e88882e8746ac1c53e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2c91ff3dccbe41afbe41f7eeaf17815f.setIcon(icon_7650325deecb4e88882e8746ac1c53e4);
+        
+    
+        var popup_c2e399ef36474071b5848b6b48c739fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a88cec4b2661409fbb103a6e3f4f989e = $(`<div id="html_a88cec4b2661409fbb103a6e3f4f989e" style="width: 100.0%; height: 100.0%;">Wauchula State Farmers Market Wauchula, FL 33873</div>`)[0];
+            popup_c2e399ef36474071b5848b6b48c739fc.setContent(html_a88cec4b2661409fbb103a6e3f4f989e);
+        
+
+        marker_2c91ff3dccbe41afbe41f7eeaf17815f.bindPopup(popup_c2e399ef36474071b5848b6b48c739fc)
+        ;
+
+        
+    
+</script>
