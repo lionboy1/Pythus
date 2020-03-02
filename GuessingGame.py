@@ -2,7 +2,7 @@ import random, time
 
 secretNumber = random.randint( 1, 20 )
 name = input('What is your name? ')
-print("Well " + name + ", guess the secret number")
+print("Well " + name + ", guess the secret number between 1 and 20")
 
 for guesses in range (1,5):
     guess = int(input( 'Take a guess '))
@@ -15,4 +15,4 @@ for guesses in range (1,5):
             print( 'Too low ')
     else:
         break
-print('You took ' + str(guesses) + ' guesses.') 
+print('You took ' + str(guesses) + ' guesses.')  
